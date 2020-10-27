@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>giphyParty</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container d-flex justify-content-center mb-3">
+        <form id="gifForm" class="" action="">
+            <input id="gifSearch" class="btn btn-light" type="text">
+            <input id="gifSubmit" class="btn btn-dark" type="submit" value="Search Giphy!">
+        </form>
+        <button id="gifRemove" class="btn btn-danger ml-1">Remove Images</button>
+    </div>
+
+    <div class="container">
+        <div id="gifPage" class="row">
+            
+        </div>
+    </div>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>
